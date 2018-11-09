@@ -39,13 +39,11 @@ int main(){
 	cin>>str1;
 	
 	//result
-	if(mystrstr(str,str1)==NULL)
-	{
+	if(mystrstr(str,str1)==NULL){
 		cout<<"The string DOESN'T exist\n";
 	}
 	
-	else
-	{
+	else{
 		cout<<"The string DOES exist\n";
 		cout<<"The location of the string is "<< mystrstr(str,str1) - str + 1<<endl;           
 	}
