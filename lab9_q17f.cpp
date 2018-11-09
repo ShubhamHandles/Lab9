@@ -47,7 +47,7 @@ int main(){
 	else
 	{
 		cout<<"The string DOES exist\n";
-		cout<<"The location of the string is "<< my_strstr(str,str1) - str + 1<<endl;           
+		cout<<"The location of the string is "<< mystrstr(str,str1) - str + 1<<endl;           
 	}
 
 	return 0;
