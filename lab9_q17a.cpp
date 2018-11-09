@@ -13,7 +13,7 @@ void mystrcpy(char *str,char *p){
 
 int main(){
    
-    	char str[],c[];
+    	char str[10],c[10];
     
 	//input string
     	cout<<"Enter a string" << endl;
